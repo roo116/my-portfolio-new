@@ -1,0 +1,61 @@
+/* default settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+:root {
+    --section-border: 3px solid black;
+    --section-color: #76D6FF;
+    --header-border: 1px solid black;
+}
+
+/* header section footer{
+    border:10px black;
+} */
+
+header {
+    border:var(--section-border);
+    background-color: var(--section-color);
+}
+
+
+body {
+    font-size: var(--bs-body-font-size)
+}
+
+section {
+    border:var(--section-border);
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+section h2 {
+    background-color: var(--section-color);
+    border: 1px solid black
+}
+
+/* #about-me {
+    padding-bottom: 10vh;
+} */
+
+/* #work img{
+        max-width: 100%;
+        height: auto;
+} */
+
+
+footer {
+    border:var(--section-border);
+    background-color: var(--section-color);
+    
+}
+
+footer h2 {
+    background-color: var(--section-color);
+    border: var(--header-border)
+}
+
+
